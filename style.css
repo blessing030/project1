@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@media ( max-width:480px)  {
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+    
+
+
+    
+
+.main{
+    width: 100%;
+    background-image: url(mti.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: brown;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+width: 100px;
+float: right;
+height: 100px;
+align-items: center; 
+padding-top: 25px;
+}
+ul li{
+    list-style:disc;
+    font-size: larger;
+    
+}
+ul li a{
+    text-decoration: solid;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: 10sec ease-in-out
+}
+ul li a:hover {
+    color: orangered; }
+
+    .search{
+     width: 300px;
+     float: none;
+     margin: left 270px; ;   
+    }
+    .search{
+        width: 180px;
+        height: 35px;
+        background: transparent;
+        font-family: 'Times New Roman';
+        /* border: 2px solid blue; */
+        margin-top: 15px;
+        color: aqua;
+        border-right: none;
+        font-size: 17px;
+        float: right;
+        padding: 20px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 5px;
+    }
+
+    .BTN{
+        width: 150px;
+        height: 20px;
+        background: orange;
+        border: 2px solid orange;
+        margin-top: 13px;
+        color: white;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+
+    }
+    .btn:focus{
+        outline: none;
+
+    }
+    .srch:focus{
+        outline: none;
+    }
+    .content{
+        width: 1200px;
+        padding-top: 125px;
+        height: auto;
+        margin: auto;
+         color:white;
+        position: absolute;
+     }
+    .content  .par{
+        padding-left: 20px;
+        padding-top: 125px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+        font-weight: bolder;
+        font-style: italic;
+        
+ }
+
+.content .h1{
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    padding-left: 120px;
+    margin-top: 50px;
+    font-style: italic;
+    
+
+    letter-spacing:2px;
+
+
+
+}
+.content .CN{
+
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 4s ease;
+
+}
+.content .CN .a{
+    text-decoration: none;
+    color: aqua;
+    transition: 3s ease;
+    padding-top: 100px;
+
+}
+.CN:hover{
+    background-color: red;
+
+}
+.content span{
+    color: aqua;
+    font-size: 65px;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background:rgb(94, 16, 16);
+    position: absolute;
+    top: 206px;
+    left: 900px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form .h3{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: x-large;
+    background-color: rgb(208, 5, 5);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    font-family: fantasy;
+}
+.form input:focus{
+    outline: auto;
+}
+::placeholder{
+    color: rgb(232, 66, 6);
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background-color: whitesmoke;
+border: none;
+margin-top: 30px;
+font-size: small;
+border-radius: 10px;
+cursor: pointer;
+color: black;
+transition: 4s ease;
+
+}
+.btnn:hover{
+    background: fixed;
+    color: orangered;
+}
+.btnn a{
+    text-decoration: solid;
+    color: black;
+    font-size: bold;
+}
+.form.link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form.link a{
+    text-decoration: none;
+    color: rgb(6, 6, 100);
+
+}
+    .liw{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+
+    }
